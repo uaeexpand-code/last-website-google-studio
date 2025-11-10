@@ -40,6 +40,8 @@ export const translations = {
     "dashboard.select_bank_to_continue": "Please select a bank to mark this expense as paid.",
     "dashboard.no_banks_setup": "No banks configured. Marking as paid without a bank.",
     "dashboard.paid_with": "Paid with",
+    "dashboard.not_connected": "Not connected to Supabase. Please check your settings.",
+    "dashboard.loading": "Loading data from Supabase...",
     
     // Smart Date
     "date.today": "Today",
@@ -106,6 +108,15 @@ export const translations = {
     "settings.general.timezone_info": "All dates and times are handled in Asia/Dubai (UTC+4).",
     "settings.general.english": "English",
     "settings.general.arabic": "Arabic",
+    "settings.general.supabase_title": "Supabase Connection",
+    "settings.general.supabase_desc": "Connect to your Supabase project to sync and persist your data.",
+    "settings.general.supabase_url": "Supabase URL",
+    "settings.general.supabase_anon_key": "Supabase Anon Key",
+    "settings.general.connection_status": "Connection Status",
+    "settings.general.connected": "Connected",
+    "settings.general.not_connected": "Not Connected",
+    "settings.general.connecting": "Connecting...",
+    "settings.general.settings_saved": "General settings saved."
   },
   ar: {
     // General
@@ -147,6 +158,8 @@ export const translations = {
     "dashboard.select_bank_to_continue": "يرجى تحديد بنك لوضع علامة على هذا المصروف كمدفوع.",
     "dashboard.no_banks_setup": "لا توجد بنوك مهيأة. سيتم وضع علامة كمدفوع بدون بنك.",
     "dashboard.paid_with": "مدفوع بواسطة",
+    "dashboard.not_connected": "غير متصل بـ Supabase. يرجى التحقق من إعداداتك.",
+    "dashboard.loading": "جاري تحميل البيانات من Supabase...",
 
     // Smart Date
     "date.today": "اليوم",
@@ -213,5 +226,14 @@ export const translations = {
     "settings.general.timezone_info": "يتم التعامل مع جميع التواريخ والأوقات بتوقيت آسيا/دبي (UTC+4).",
     "settings.general.english": "الإنجليزية",
     "settings.general.arabic": "العربية",
+    "settings.general.supabase_title": "الاتصال بـ Supabase",
+    "settings.general.supabase_desc": "اتصل بمشروع Supabase الخاص بك لمزامنة بياناتك والاحتفاظ بها.",
+    "settings.general.supabase_url": "رابط Supabase",
+    "settings.general.supabase_anon_key": "مفتاح Supabase العام",
+    "settings.general.connection_status": "حالة الاتصال",
+    "settings.general.connected": "متصل",
+    "settings.general.not_connected": "غير متصل",
+    "settings.general.connecting": "جارٍ الاتصال...",
+    "settings.general.settings_saved": "تم حفظ الإعدادات العامة."
   }
 };

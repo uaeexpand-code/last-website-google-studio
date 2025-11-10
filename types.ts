@@ -9,7 +9,7 @@ export interface Expense {
   amount: number;
   date: string; // YYYY-MM-DD
   isPaid: boolean;
-  bankId?: string;
+  bankId?: string | null;
 }
 
 export interface Category {
@@ -29,6 +29,8 @@ export interface AppSettings {
   reminderDays: number;
   language: 'en' | 'ar';
   currency: 'AED';
+  supabaseUrl: string;
+  supabaseAnonKey: string;
 }
 
 export type IconName = "Utensils" | "Car" | "Shopping" | "Home" | "Coffee" | "Briefcase" | "Plane" | "Gift" | "Book" | "Music" | "Gaming" | "Shirt" | "Fitness" | "Savings" | "Card" | "Building" | "Energy" | "Heart" | "Tag";
