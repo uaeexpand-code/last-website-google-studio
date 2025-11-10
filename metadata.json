@@ -1,0 +1,5 @@
+{
+  "name": "Bilingual Expense Tracker",
+  "description": "A modern, bilingual (English/Arabic) personal expense tracking web application with Discord notifications, full RTL support, and UAE-centric date/time handling.",
+  "requestFramePermissions": []
+}
